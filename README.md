@@ -33,6 +33,7 @@ The promo bar shows how much more the user needs to spend to unlock **Free Shipp
 
 ## Live Demo
 
+https://dhanishm23.github.io/The-Dynamic-Promo-Bar-Cart-Simulation/
 
 ## Author
 
