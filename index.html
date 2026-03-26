@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dynamic Promo Cart</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Promo Bar -->
+    <div class="promo-bar" id="promoBar">
+      <span id="promoMessage"></span>
+      <button id="closeBar" class="close-btn">✕</button>
+    </div>
+
+    <!-- Products -->
+    <div class="products">
+      <div class="product">
+        <img src="/assets/imgs/white-tee.webp" alt="Product" />
+        <h3>Basic Tee</h3>
+        <p class="price">$30</p>
+        <button class="addBtn" data-price="30">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/assets/imgs/Hoodie-Free.png" alt="Product" />
+        <h3>Casual Hoodie</h3>
+        <p class="price">$50</p>
+        <button class="addBtn" data-price="50">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/assets/imgs/mens-jacket.jpg" alt="Product" />
+        <h3>Premium Jacket</h3>
+        <p class="price">$80</p>
+        <button class="addBtn" data-price="80">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Cart Controls -->
+    <div class="cart-controls">
+      <button id="clearCart">Clear Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
